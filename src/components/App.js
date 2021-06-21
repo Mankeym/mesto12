@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import {Redirect, BrowserRouter, Route, Switch, useHistory  } from 'react-router-dom';
+import {Redirect, Route, Switch, useHistory  } from 'react-router-dom';
 import Header from "./Header";
 import Main from "./Main";
 import Footer from "./Footer";
@@ -86,9 +86,6 @@ function App() {
   }
   function handleCardClick(card) {
     setSelectedCard(card);
-  }
-  function handleDeleteClick() {
-    setIsDeletePopupOpen(true)
   }
   function handleCardDeleteClick(card) {
     setIsDeletePopupOpen(true);
