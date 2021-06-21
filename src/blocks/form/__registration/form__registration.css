@@ -5,3 +5,8 @@
     margin-top: 30px;
     width: 358px;
 }
+@media screen and (max-width:500px){
+    .form__registration{
+        width: 260px;
+    }
+}

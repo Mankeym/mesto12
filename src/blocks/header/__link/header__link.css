@@ -8,4 +8,16 @@
     font-size: 18px;
     line-height: 22px;
     text-decoration: none;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 500px){
+    .header__link{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: right;
+    }
 }

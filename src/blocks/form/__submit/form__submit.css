@@ -8,3 +8,9 @@
 input.form__submit::placeholder{
     color: black;
 }
+@media screen and (max-width: 500px){
+    .form__submit{
+        width: 260px;
+
+    }
+}
