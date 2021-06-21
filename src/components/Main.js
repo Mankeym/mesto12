@@ -1,7 +1,7 @@
-import image from "../images/image.svg";
+
 import pen from "../images/pen.svg";
 import krest from "../images/krest.svg";
-import {useContext, useState, useEffect } from "react";
+import {useContext} from "react";
 import Card from "./Card";
 import { CurrentUserContext } from "../contexts/CurrentUserContext";
 import { CardsContext } from "../contexts/CardsContext";
